@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home_title"
+        android:textSize="25sp"
+        android:layout_marginBottom="40dp"/>
+
+    <!-- 发布幻想文案按钮 -->
+    <Button
+        android:id="@+id/btn_publish"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_publish"/>
+
+    <!-- 幻想广场按钮 -->
+    <Button
+        android:id="@+id/btn_list"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_list"
+        android:layout_marginTop="15dp"/>
+
+    <!-- 退出登录按钮 修复对比度问题 -->
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_logout"
+        android:layout_marginTop="40dp"
+        android:background="#D92121"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>
