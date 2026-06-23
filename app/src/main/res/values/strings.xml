@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Fantasy</string>
+    <!-- 首页新增文字 -->
+    <string name="home_title">幻想世界首页</string>
+    <string name="btn_publish">发布幻想文案</string>
+    <string name="btn_list">查看幻想广场</string>
+    <string name="btn_logout">退出登录</string>
 </resources>
